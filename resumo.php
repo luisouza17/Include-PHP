@@ -14,7 +14,14 @@
         ?>
     </div>
     <div id="conteudo">
-
+        <?php
+            echo readfile("txt/resumo1.txt");
+        ?>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4QRdB4RAQMs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <?php
+            echo readfile("txt/resumo2.txt");
+        ?>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDmMoSeG30" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div id="rodape">
         <?php
